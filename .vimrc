@@ -1,1 +1,1 @@
-/Users/dennis/.vimrc
+.vimrc
