@@ -34,7 +34,7 @@ set softtabstop=2
 set ruler
 
 "Highlight tabs and extra whitespace
-highlight LiterTabs ctermbg=darkgreen guibg=darkgreen
+highlight LiteralTabs ctermbg=darkgreen guibg=darkgreen
 match LiteralTabs /\s /
 highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
 match ExtraWhitespace /\s\+$/
