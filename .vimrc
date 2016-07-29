@@ -30,6 +30,17 @@ set shiftwidth=2
 "Number of spaces to use in insert mode for tabs
 set softtabstop=2
 
+"Need that ruler
+set ruler
+
+"Highlight tabs and extra whitespace
+highlight LiterTabs ctermbg=darkgreen guibg=darkgreen
+match LiteralTabs /\s /
+highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
+match ExtraWhitespace /\s\+$/
+
+
+
 "Disable swap and backup files
 set nobackup
 set nowritebackup
