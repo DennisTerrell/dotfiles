@@ -18,6 +18,15 @@ set number
 "setcomment color cuz dark blue is hard to read
 highlight comment ctermfg=cyan
 
+"I like 2 spaces
+set tabstop=2
+
+"Disable swap files
+set nobackup
+set nowritebackup
+set noswapfile
+
+
 "enable pathogen plugin manager for vim
 execute pathogen#infect()
 
