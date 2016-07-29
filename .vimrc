@@ -9,19 +9,28 @@
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-"turn on syntax highlighting 
+"Turn on syntax highlighting 
 syntax on
 
-"enable line number
+"Enable line number
 set number
 
-"setcomment color cuz dark blue is hard to read
+"Set comment color cuz default is harder to read
 highlight comment ctermfg=cyan
 
-"I like 2 spaces
-set tabstop=2
+"Convert tabs to spaces
+set expandtab
 
-"Disable swap files
+"Tabs equal to two columns
+set tabstop=2	
+
+"Number of spaces to use for auto indent
+set shiftwidth=2
+
+"Number of spaces to use in insert mode for tabs
+set softtabstop=2
+
+"Disable swap and backup files
 set nobackup
 set nowritebackup
 set noswapfile
