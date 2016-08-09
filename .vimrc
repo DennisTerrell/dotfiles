@@ -1,15 +1,15 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"                                _                       
-"                        __   __(_) _ __ ___   _ __  ___ 
+"
+"                        __   __(_) _ __ ___   _ __  ___
 "                        \ \ / /| || '_ ` _ \ | '__|/ __|
-"                         \ V / | || | | | | || |  | (__ 
+"                         \ V / | || | | | | || |  | (__
 "                          \_/  |_||_| |_| |_||_|   \___|
-"                                                        
+"
 "
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-"Turn on syntax highlighting 
+"Turn on syntax highlighting
 syntax on
 
 "Enable line number
@@ -22,7 +22,7 @@ highlight comment ctermfg=cyan
 set expandtab
 
 "Tabs equal to two columns
-set tabstop=2	
+set tabstop=2
 
 "Number of spaces to use for auto indent
 set shiftwidth=2
@@ -46,6 +46,8 @@ set nobackup
 set nowritebackup
 set noswapfile
 
+"Allow saving of files as sudo when I forgot to start vim using sudo.
+cmap w!! w !sudo tee > /dev/null %
 
 "enable pathogen plugin manager for vim
 execute pathogen#infect()
