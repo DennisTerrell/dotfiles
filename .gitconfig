@@ -1,5 +1,5 @@
 [core]
-	editor = sublime -n -w
+	editor = vim
 [user]
 	name = Dennis
 	email = dennisterrell@gmail.com

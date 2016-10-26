@@ -39,7 +39,10 @@ match LiteralTabs /\s /
 highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
 match ExtraWhitespace /\s\+$/
 
+"Key bindings
 
+inoremap jj <esc>
+vnoremap jj <esc>
 
 "Disable swap and backup files
 set nobackup
