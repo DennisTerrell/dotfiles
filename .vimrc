@@ -55,7 +55,7 @@ cmap w!! w !sudo tee > /dev/null %
 "enable pathogen plugin manager for vim
 execute pathogen#infect()
 
-"default settings suggested by screwloose, author of syntastic
+"syntastic settings
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
@@ -64,3 +64,7 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+"shell syntax checker
+let g:syntastic_sh_checkers = ['shell', 'shellcheck']
+"c syntax checker
+let g:syntatastic_c_checkers = ['gcc', 'make']
