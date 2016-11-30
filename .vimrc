@@ -33,6 +33,10 @@ set softtabstop=2
 "Need that ruler
 set ruler
 
+"Color column at 80 lines
+set cc=80
+highlight ColorColumn ctermbg=darkblue guibg=darkblue
+
 "Highlight tabs and extra whitespace
 highlight LiteralTabs ctermbg=darkgreen guibg=darkgreen
 match LiteralTabs /\s /
