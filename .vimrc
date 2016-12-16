@@ -33,7 +33,7 @@ set softtabstop=2
 "Need that ruler
 set ruler
 
-"Color column at 80 lines
+"Color column at 80 
 set cc=80
 highlight ColorColumn ctermbg=darkblue guibg=darkblue
 
