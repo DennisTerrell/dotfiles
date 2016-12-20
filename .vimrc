@@ -72,4 +72,6 @@ let g:syntastic_check_on_wq = 0
 "shell syntax checker
 let g:syntastic_sh_checkers = ['shell', 'shellcheck']
 "c syntax checker
-let g:syntatastic_c_checkers = ['gcc', 'make']
+let g:syntastic_c_checkers = ['gcc', 'make']
+"python syntax checker
+let g:syntastic_python_checkers = ['pyflakes', 'python']
