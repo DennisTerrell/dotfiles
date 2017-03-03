@@ -1,4 +1,4 @@
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "
 "                        __   __(_) _ __ ___   _ __  ___
 "                        \ \ / /| || '_ ` _ \ | '__|/ __|
@@ -7,7 +7,7 @@
 "
 "
 "
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 "Turn on syntax highlighting
 syntax on
@@ -77,3 +77,5 @@ let g:syntastic_c_checkers = ['gcc', 'make']
 let g:syntastic_python_checkers = ['pyflakes', 'python']
 "ruby syntax checker
 let g:syntastic_ruby_checkers = ['rubocop']
+"puppet syntax checker
+let g:syntastic_puppet_checkers = ['puppetlint', 'puppet']
