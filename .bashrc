@@ -1,3 +1,4 @@
+#Don't start tmux for remote sessions
 if command -v tmux > dev/null; then
   if [[ "$-" != *i* ]]; then
     [ -z "$TMUX" ] && { tmux attach || tmux new-session;}
