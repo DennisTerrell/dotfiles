@@ -1,5 +1,5 @@
 if command -v tmux > dev/null; then
-  if [[ "$-" == *i* ]]; then
+  if [[ "$-" != *i* ]]; then
     [ -z "$TMUX" ] && { tmux attach || tmux new-session;}
   fi
 fi
