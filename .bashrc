@@ -1,7 +1,7 @@
 if command -v tmux > dev/null; then
-  case $ in *i*)
+  if [[ "$-" == *i* ]]; then
     [ -z "$TMUX" ] && { tmux attach || tmux new-session;}
-  esac
+  fi
 fi
 #PS1="[\u@\h \w]\$"
 
