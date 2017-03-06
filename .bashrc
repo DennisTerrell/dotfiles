@@ -1,4 +1,4 @@
-if command -v tmux>dev/null; then
+if command -v tmux > dev/null; then
   case $ in *i*)
     [ -z "$TMUX" ] && { tmux attach || tmux new-session;}
   esac
