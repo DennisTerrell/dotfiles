@@ -33,7 +33,7 @@ set softtabstop=2
 "Need that ruler
 set ruler
 
-"Color column at 80 
+"Color column at 80
 set cc=80
 highlight ColorColumn ctermbg=darkblue guibg=darkblue
 
@@ -75,3 +75,7 @@ let g:syntastic_sh_checkers = ['shell', 'shellcheck']
 let g:syntastic_c_checkers = ['gcc', 'make']
 "python syntax checker
 let g:syntastic_python_checkers = ['pyflakes', 'python']
+"puppet checker
+let g:syntastic_puppet_checkers = ['puppetlint']
+"ruby checker
+let g:syntastic_ruby_checkers = ['rubocop']
