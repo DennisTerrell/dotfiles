@@ -75,7 +75,7 @@ let g:syntastic_sh_checkers = ['shell', 'shellcheck']
 let g:syntastic_c_checkers = ['gcc', 'make']
 "python syntax checker
 let g:syntastic_python_checkers = ['pyflakes', 'python']
-"puppet checker
-let g:syntastic_puppet_checkers = ['puppetlint']
 "ruby checker
 let g:syntastic_ruby_checkers = ['rubocop']
+"puppet checker
+let g:syntastic_puppet_checkers = ['puppetlint', 'puppet']
