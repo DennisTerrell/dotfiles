@@ -1,3 +1,6 @@
+#if not running interactively don't load this
+[[ $- != *i* ]] && return
+
 #Don't start tmux for remote sessions
 if command -v tmux > dev/null; then
   if [[ "$-" == *i* ]]; then
