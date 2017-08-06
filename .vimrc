@@ -59,6 +59,9 @@ cmap w!! w !sudo tee > /dev/null %
 "enable pathogen plugin manager for vim
 execute pathogen#infect()
 
+"initialize nerd tree when starting vim
+autocmd vimenter * NERDTree
+
 "syntastic settings
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
