@@ -23,4 +23,4 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 alias rails_reset="rake db:drop db:create db:migrate db:seed"
-alias tmux="tmux new-session -A -s main"
+alias tmux="tmux new-session -A -su main"
