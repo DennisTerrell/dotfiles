@@ -82,3 +82,5 @@ let g:syntastic_python_checkers = ['pyflakes', 'python']
 let g:syntastic_ruby_checkers = ['rubocop']
 "puppet checker
 let g:syntastic_puppet_checkers = ['puppetlint', 'puppet']
+"xml fuk me
+let g:syntastic_xml_checkers = ['xmllint']
