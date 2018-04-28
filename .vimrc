@@ -60,7 +60,7 @@ cmap w!! w !sudo tee > /dev/null %
 execute pathogen#infect()
 
 "initialize nerd tree when starting vim
-autocmd vimenter * NERDTree
+"autocmd vimenter * NERDTree
 
 "syntastic settings
 set statusline+=%#warningmsg#
