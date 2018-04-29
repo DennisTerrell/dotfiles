@@ -3,11 +3,13 @@ $env:Path = "C:\Program Files\Git\bin;C:\Program Files\Git\usr\bin;C:\Windows\sy
 if (-Not(Test-Path -Path "C:\ProgramData\Chocolatey")) {
    iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex
 }
+
+Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
+
 if (-Not(Test-Path -Path "C:\Program Files\PackageManagement\ProviderAssemblies\nuget")) {
   Install-PackageProvider NuGet -MinimumVersion '2.8.5.201' -Force
 }
 
-Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
 
 Import-Module Get-ChildItemColor
 Import-Module -Name posh-git
