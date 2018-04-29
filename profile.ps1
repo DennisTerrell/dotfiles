@@ -1,4 +1,4 @@
-$env:Path = "C:\Program Files\Git\bin;C:\Program Files\Git\usr\bin;C:\Windows\system32\;E:\Hashicorp\bin\;C:\Windows\System32\OpenSSH\;"
+$env:Path = "C:\Program Files\Git\bin;C:\Program Files\Git\usr\bin;C:\Windows\system32\;E:\Hashicorp\bin\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;"
 
 if (-Not(Test-Path -Path "C:\ProgramData\Chocolatey")) {
    iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex
