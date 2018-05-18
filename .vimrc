@@ -84,3 +84,5 @@ let g:syntastic_ruby_checkers = ['rubocop']
 let g:syntastic_puppet_checkers = ['puppetlint', 'puppet']
 "xml fuk me
 let g:syntastic_xml_checkers = ['xmllint']
+"css
+let g:syntastic_css_checkers = ['csslint']
