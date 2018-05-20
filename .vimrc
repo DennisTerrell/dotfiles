@@ -57,7 +57,9 @@ set noswapfile
 cmap w!! w !sudo tee > /dev/null %
 
 "enable pathogen plugin manager for vim
-execute pathogen#infect()
+execute pathogen#infect('bundle/{}')
+syntax on
+filetype plugin indent on
 
 "initialize nerd tree when starting vim
 "autocmd vimenter * NERDTree
@@ -81,7 +83,7 @@ let g:syntastic_python_checkers = ['pyflakes', 'python']
 "ruby checker
 let g:syntastic_ruby_checkers = ['rubocop']
 "puppet checker
-let g:syntastic_puppet_checkers = ['puppetlint', 'puppet']
+let g:syntastic_puppet_checkers = ['puppet-lint', 'puppet']
 "xml fuk me
 let g:syntastic_xml_checkers = ['xmllint']
 "css
