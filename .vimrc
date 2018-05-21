@@ -11,6 +11,7 @@
 
 "Turn on syntax highlighting
 syntax on
+colorscheme nighted
 
 "Enable line number
 set number
@@ -62,7 +63,7 @@ syntax on
 filetype plugin indent on
 
 "initialize nerd tree when starting vim
-"autocmd vimenter * NERDTree
+autocmd vimenter * NERDTree
 
 "syntastic settings
 set statusline+=%#warningmsg#
