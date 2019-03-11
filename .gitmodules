@@ -1,0 +1,3 @@
+[submodule "nighted.vim"]
+	path = nighted.vim
+	url = git@github.com:wolf-dog/nighted.vim.git
