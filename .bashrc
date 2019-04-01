@@ -4,7 +4,7 @@
 #Don't start tmux for remote sessions
 if command -v tmux > dev/null; then
   if [[ "$-" == *i* ]]; then
-    [ -z "$TMUX" ] && { tmux new-session;}
+    [ -z "$TMUX" ] && { tmux attach -d; }
   fi
 fi
 #PS1="[\u@\h \w]\$"
