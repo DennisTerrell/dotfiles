@@ -7,6 +7,10 @@ if command -v tmux > dev/null; then
     [ -z "$TMUX" ] && { tmux attach -d; }
   fi
 fi
+
+#vim readline bindings
+set -o vi
+
 #PS1="[\u@\h \w]\$"
 
 if [ $(id -u) -eq 0 ]; then
