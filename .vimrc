@@ -38,6 +38,9 @@ set ruler
 set cc=80
 highlight ColorColumn ctermbg=darkblue guibg=darkblue
 
+"fuzzy find
+set rtp+=~/.fzf
+
 "Highlight tabs and extra whitespace
 highlight LiteralTabs ctermbg=darkgreen guibg=darkgreen
 match LiteralTabs /\s /

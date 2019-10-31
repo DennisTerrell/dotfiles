@@ -1,3 +1,8 @@
 [submodule "nighted.vim"]
 	path = nighted.vim
-	url = git@github.com:wolf-dog/nighted.vim.git
+  url = git@github.com:wolf-dog/nighted.vim.git
+
+[submodule "fzf"]
+	path = fzf
+	url = git@github.com:junegunn/fzf.git
+	branch = master
