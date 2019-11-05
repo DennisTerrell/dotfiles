@@ -31,3 +31,4 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 alias rails_reset="rake db:drop db:create db:migrate db:seed"
 alias tmux="tmux new-session -A -su main"
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
