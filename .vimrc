@@ -42,9 +42,9 @@ highlight ColorColumn ctermbg=darkblue guibg=darkblue
 set rtp+=~/.fzf
 
 "Highlight tabs and extra whitespace
-highlight LiteralTabs ctermbg=darkgreen guibg=darkgreen
+highlight LiteralTabs ctermbg=green guibg=darkgreen
 match LiteralTabs /\s /
-highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
+highlight ExtraWhitespace ctermbg=green guibg=darkgreen
 match ExtraWhitespace /\s\+$/
 
 "Key bindings

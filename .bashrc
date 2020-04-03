@@ -11,6 +11,10 @@ fi
 #vim readline bindings
 set -o vi
 
+#set default editor
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
 #PS1="[\u@\h \w]\$"
 
 if [ $(id -u) -eq 0 ]; then
