@@ -65,8 +65,11 @@ execute pathogen#infect('bundle/{}')
 syntax on
 filetype plugin indent on
 
-"initialize nerd tree when starting vim
+"initialize nerdtree when starting vim
 autocmd vimenter * NERDTree
+
+"nerdtree settings
+let NERDTreeShowHidden=1
 
 "syntastic settings
 set statusline+=%#warningmsg#
