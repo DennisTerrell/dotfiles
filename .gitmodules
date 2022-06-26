@@ -5,4 +5,15 @@
 [submodule "fzf"]
 	path = fzf
 	url = git@github.com:junegunn/fzf.git
-	branch = master
+  branch = master
+
+[submodule "tpm"]
+	path = .tmux/plugins/tpm 
+  url = git@github.com:tmux-plugins/tpm.git
+  branch = master
+
+[submodule "tmux-resurrect"]
+	path = .tmux/plugins/tmux-resurrect 
+  url = https://github.com/tmux-plugins/tmux-resurrect.git 
+  branch = master
+
