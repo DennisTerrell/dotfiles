@@ -1,10 +1,10 @@
 [submodule "nighted.vim"]
-	path = nighted.vim
+  path = nighted.vim
   url = git@github.com:wolf-dog/nighted.vim.git
 
 [submodule "fzf"]
-	path = fzf
-	url = git@github.com:junegunn/fzf.git
+  path = fzf
+  url = git@github.com:junegunn/fzf.git
   branch = master
 
 [submodule "tpm"]
