@@ -41,6 +41,9 @@ highlight ColorColumn ctermbg=darkblue guibg=darkblue
 "fuzzy find
 set rtp+=~/.fzf
 
+"buffer modifiable
+set ma
+
 "Highlight tabs and extra whitespace
 highlight LiteralTabs ctermbg=green guibg=darkgreen
 match LiteralTabs /\s /

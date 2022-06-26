@@ -1,4 +1,4 @@
-alias rdesktop='rdesktop -g 1920x1080'
+#alias rdesktop='rdesktop -g 1920x1080'
 alias rails_reset='rake db:drop db:create db:migrate db:seed'
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
