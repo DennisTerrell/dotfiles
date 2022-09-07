@@ -83,6 +83,7 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+let g:syntastic_enable_perl_checker = 1
 
 "shell syntax checker
 let g:syntastic_sh_checkers = ['shell', 'shellcheck']
@@ -98,3 +99,7 @@ let g:syntastic_puppet_checkers = ['puppetlint', 'puppet']
 let g:syntastic_xml_checkers = ['xmllint']
 "css
 let g:syntastic_css_checkers = ['csslint']
+"c#
+let g:syntastic_cs_checkers = ['mcs'] 
+"perl
+let g:syntastic_perl_checkers = ['perl']  
