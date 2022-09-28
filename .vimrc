@@ -103,3 +103,5 @@ let g:syntastic_css_checkers = ['csslint']
 let g:syntastic_cs_checkers = ['mcs'] 
 "perl
 let g:syntastic_perl_checkers = ['perl']  
+"ruby 
+let g:syntastic_ruby_checkers = ['ruby']

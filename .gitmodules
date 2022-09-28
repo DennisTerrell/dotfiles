@@ -1,6 +1,7 @@
 [submodule "nighted.vim"]
   path = nighted.vim
   url = git@github.com:wolf-dog/nighted.vim.git
+  branch = master
 
 [submodule "fzf"]
   path = fzf
@@ -8,12 +9,12 @@
   branch = master
 
 [submodule "tpm"]
-	path = .tmux/plugins/tpm 
+  path = .tmux/plugins/tpm
   url = git@github.com:tmux-plugins/tpm.git
   branch = master
 
 [submodule "tmux-resurrect"]
-	path = .tmux/plugins/tmux-resurrect 
-  url = https://github.com/tmux-plugins/tmux-resurrect.git 
+  path = .tmux/plugins/tmux-resurrect
+  url = git@github.com/tmux-plugins/tmux-resurrect.git
   branch = master
 
