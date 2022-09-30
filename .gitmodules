@@ -18,3 +18,18 @@
 	url = git@github.com:tmux-plugins/tmux-resurrect.git
   branch = master
 
+[submodule "pathogen"]
+	path = .vim/autoloads/pathogen
+	url = git@github.com:tmux-plugins/tmux-resurrect.git
+  branch = master
+
+[submodule "nerdtree"]
+	path = .vim/bundle/nerdtree
+	url = git@github.com:preservim/nerdtree.git 
+  branch = master
+
+[submodule "syntastic"]
+	path = .vim/bundle/sytastic
+	url = git@github.com:vim-syntastic/syntastic.git 
+  branch = master
+
