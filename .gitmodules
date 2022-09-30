@@ -19,8 +19,8 @@
   branch = master
 
 [submodule "pathogen"]
-	path = .vim/autoloads/pathogen
-	url = git@github.com:tmux-plugins/tmux-resurrect.git
+	path = pathogen
+	url = git@github.com:tpope/vim-pathogen.git 
   branch = master
 
 [submodule "nerdtree"]
