@@ -52,8 +52,8 @@ match ExtraWhitespace /\s\+$/
 
 "Key bindings
 
-inoremap jj <esc>
-vnoremap jj <esc>
+"inoremap jj <esc>
+"vnoremap jj <esc>
 
 "Disable swap and backup files
 set nobackup
@@ -65,7 +65,6 @@ cmap w!! w !sudo tee > /dev/null %
 
 "enable pathogen plugin manager for vim
 execute pathogen#infect('bundle/{}')
-syntax on
 filetype plugin indent on
 
 "initialize nerdtree when starting vim

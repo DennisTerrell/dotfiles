@@ -1,0 +1,22 @@
+pane	0	0	0	:	0	dennis@shredder: ~	:/home/dennis	0	htop	:htop
+pane	0	0	0	:	1	dennis@shredder: ~	:/home/dennis	0	bash	:
+pane	0	0	0	:	2	dennis@shredder: ~	:/home/dennis	0	bash	:
+pane	0	0	0	:	3	dennis@shredder: ~	:/home/dennis	1	bash	:
+pane	0	1	0	:	0	dennis@shredder: ~/.ssh	:/home/dennis/.ssh	1	bash	:
+pane	0	1	0	:	1	dennis@shredder: ~/Development/puppet/easlinuxcommon/manifests/oracle	:/home/dennis/Development/puppet/easlinuxcommon/manifests/oracle	0	vim	:vim azswap.pp
+pane	0	1	0	:	2	dennis@shredder: ~	:/home/dennis	0	bash	:
+pane	0	1	0	:	3	dennis@shredder: ~/Development/puppet/easlinuxcommon	:/home/dennis/Development/puppet/easlinuxcommon	0	bash	:
+pane	0	1	0	:	4	dennis@shredder: ~/Development/puppet/control-repo/manifests	:/home/dennis/Development/puppet/control-repo/manifests	0	vim	:vim wwisdb.pp
+pane	0	1	0	:	5	dennis@shredder: ~/Development/puppet/control-repo/manifests	:/home/dennis/Development/puppet/control-repo/manifests	0	vim	:vim wwisdb.pp
+pane	0	2	0	:-	0	dennis@shredder: ~/Development/vag_boxes/oel/oel8_6	:/home/dennis/Development/vag_boxes/oel/oel8_6	0	vim	:vim Vagrantfile
+pane	0	2	0	:-	1	dennis@shredder: /storage/vm_disks	:/storage/vm_disks	0	bash	:
+pane	0	2	0	:-	2	dennis@shredder: ~/Development/vag_boxes/oel/oel8_6	:/home/dennis/Development/vag_boxes/oel/oel8_6	1	bash	:
+pane	0	3	1	:*	0	dennis@shredder: /run/user/1000/gvfs	:/run/user/1000/gvfs	0	bash	:
+pane	0	3	1	:*	1	dennis@shredder: ~	:/home/dennis	1	bash	:
+pane	0	3	1	:*	2	dennis@shredder: /run/user/1000/gvfs	:/run/user/1000/gvfs	0	bash	:
+pane	0	3	1	:*	3	dennis@shredder: ~	:/home/dennis	0	bash	:
+window	0	0	:stats	0	:	2359,491x87,0,0{245x87,0,0[245x43,0,0,1,245x43,0,44,2],245x87,246,0[245x43,246,0,3,245x43,246,44,4]}	off
+window	0	1	:puppet	0	:	9192,239x209,0,0[239x105,0,0{118x105,0,0[118x87,0,0,5,118x17,0,88,6],120x105,119,0[120x87,119,0,7,120x17,119,88,8]},239x103,0,106{119x103,0,106,9,119x103,120,106,10}]	off
+window	0	2	:bash	0	:-	d4f1,491x87,0,0{245x87,0,0,11,245x87,246,0[245x43,246,0,12,245x43,246,44,13]}	:
+window	0	3	:bash	1	:*	f2ab,491x87,0,0[491x43,0,0{245x43,0,0,14,245x43,246,0,16},491x43,0,44{245x43,0,44,15,245x43,246,44,17}]	:
+state	0	

@@ -1,0 +1,19 @@
+pane	0	0	1	:*	0	dennis@shredder: ~	:/home/dennis	0	htop	:htop
+pane	0	0	1	:*	1	dennis@shredder: ~	:/home/dennis	0	sudo	:sudo iftop
+pane	0	0	1	:*	2	dennis@shredder: ~	:/home/dennis	0	watch	:watch iostat
+pane	0	0	1	:*	3	dennis@shredder: ~	:/home/dennis	1	bash	:
+pane	0	1	0	:	0	dennis@shredder: ~/.ssh	:/home/dennis/.ssh	1	bash	:
+pane	0	1	0	:	1	dennis@shredder: ~/Development/puppet/easlinuxcommon/manifests/oracle	:/home/dennis/Development/puppet/easlinuxcommon/manifests/oracle	0	vim	:vim azswap.pp
+pane	0	1	0	:	2	dennis@shredder: ~	:/home/dennis	0	bash	:
+pane	0	1	0	:	3	dennis@shredder: ~/Development/puppet/easlinuxcommon	:/home/dennis/Development/puppet/easlinuxcommon	0	bash	:
+pane	0	1	0	:	4	dennis@shredder: ~/Development/puppet/control-repo/manifests	:/home/dennis/Development/puppet/control-repo/manifests	0	vim	:vim wwisdb.pp
+pane	0	1	0	:	5	dennis@shredder: ~/Development/puppet/control-repo/manifests	:/home/dennis/Development/puppet/control-repo/manifests	0	vim	:vim wwisdb.pp
+pane	0	2	0	:	0	dennis@shredder: ~/Development/vag_boxes/oel/oel8_6	:/home/dennis/Development/vag_boxes/oel/oel8_6	0	vim	:vim Vagrantfile
+pane	0	2	0	:	1	dennis@shredder: /storage/vm_disks	:/storage/vm_disks	0	bash	:
+pane	0	2	0	:	2	dennis@shredder: ~/Development/vag_boxes/oel/oel8_6	:/home/dennis/Development/vag_boxes/oel/oel8_6	1	bash	:
+pane	0	3	0	:-	0	dennis@shredder: ~/Downloads	:/home/dennis/Downloads	1	bash	:
+window	0	0	:stats	1	:*	6f2c,239x209,0,0{119x209,0,0[119x104,0,0,0,119x104,0,105,2],119x209,120,0[119x104,120,0,1,119x104,120,105,3]}	off
+window	0	1	:puppet	0	:	ac4d,242x72,0,0[242x36,0,0{120x36,0,0[120x18,0,0,21,120x17,0,19,13],121x36,121,0[121x18,121,0,20,121x17,121,19,15]},242x35,0,37{121x35,0,37,6,120x35,122,37,14}]	off
+window	0	2	:bash	0	:	c644,239x209,0,0{119x209,0,0,16,119x209,120,0[119x104,120,0,17,119x104,120,105,18]}	:
+window	0	3	:bash	0	:-	5548,239x209,0,0,19	:
+state	0	
