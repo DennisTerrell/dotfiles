@@ -10,3 +10,9 @@ lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(
 lg = !"git lg1"
 [status]
 	submoduleSummary = true
+[diff]
+	tool = vimdiff
+[difftool]
+  prompt = false
+[pager]
+  diff =
